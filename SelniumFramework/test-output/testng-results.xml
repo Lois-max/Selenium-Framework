@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="7344" started-at="2020-10-08T20:46:39Z" finished-at="2020-10-08T20:46:46Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="7344" started-at="2020-10-08T20:46:39Z" finished-at="2020-10-08T20:46:46Z">
+      <class name="utilities.ExcelDataProvider">
+        <test-method status="PASS" signature="setUpTest()[pri:0, instance:utilities.ExcelDataProvider@400cff1a]" name="setUpTest" is-config="true" duration-ms="3523" started-at="2020-10-08T20:46:39Z" finished-at="2020-10-08T20:46:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String)[pri:0, instance:utilities.ExcelDataProvider@400cff1a]" name="test1" duration-ms="2094" started-at="2020-10-08T20:46:43Z" data-provider="test1data" finished-at="2020-10-08T20:46:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String)[pri:0, instance:utilities.ExcelDataProvider@400cff1a]" name="test1" duration-ms="726" started-at="2020-10-08T20:46:45Z" data-provider="test1data" finished-at="2020-10-08T20:46:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String)[pri:0, instance:utilities.ExcelDataProvider@400cff1a]" name="test1" duration-ms="611" started-at="2020-10-08T20:46:45Z" data-provider="test1data" finished-at="2020-10-08T20:46:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- utilities.ExcelDataProvider -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
